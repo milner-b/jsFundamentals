@@ -1,0 +1,35 @@
+body{
+background-color: #264653;
+}
+
+img {
+    cursor: grabbing;   
+    max-width: 250px;
+    border-radius: 50%;
+}
+#header{
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    height: 100%
+}
+
+    .container > div:nth-child(1){
+        flex: 1;
+    }
+
+    .container > div:nth-child(2){
+        flex: 3;
+    }
+
+    ul 
+    {
+        list-style-type: none;
+    }
+
+
